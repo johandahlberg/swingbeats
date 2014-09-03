@@ -1,0 +1,65 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  font-family: 'Monoton', cursive;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+}
+
+.vert-text h2 {
+  color: white;
+  font-size: 3em;  
+}
+
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../images/lindy_hop.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Playlist */
+
+.playlist {
+  padding: 40px 0;
+}
+
+/* About */
+
+.about {
+  background: #7fbbda;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .header {
+	background: url(../images/lindy_hop_small.jpg) no-repeat center center scroll;
+  }
+
+}
